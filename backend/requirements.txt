@@ -1,0 +1,7 @@
+llama-index
+langchain
+pypdf2
+python-dotenv
+uvicorn
+fastapi
+fastapi-cors
