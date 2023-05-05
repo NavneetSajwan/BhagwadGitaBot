@@ -26,15 +26,28 @@ function App() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="inputField">What's on your mind?</label>
-        <input
-          type="text"
-          id="inputField"
-          value={inputValue}
-          onChange={(event) => setInputValue(event.target.value)}
-        />
+      <input
+        type="text"
+        id="inputField"
+        placeholder="What's on your mind?"
+        value={inputValue}
+        onChange={(event) => setInputValue(event.target.value)}
+      />
         <button type="submit">Submit</button>
       </form>
       {isLoading && (
         <div className="loader">
-          <BeatLoader
+          <BeatLoader size={15} color={'#36D7B7'} loading={isLoading} />
+        </div>
+      )}
+      {response && (
+        <div className="response">
+          <p>Bhagwad Gita</p>
+          <p>{response.message}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default App;
