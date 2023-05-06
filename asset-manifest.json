@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BhagwadGitaBot/static/css/main.1d818f60.css",
+    "main.js": "/BhagwadGitaBot/static/js/main.a451252f.js",
+    "index.html": "/BhagwadGitaBot/index.html",
+    "main.1d818f60.css.map": "/BhagwadGitaBot/static/css/main.1d818f60.css.map",
+    "main.a451252f.js.map": "/BhagwadGitaBot/static/js/main.a451252f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d818f60.css",
+    "static/js/main.a451252f.js"
+  ]
+}
